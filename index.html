@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A responsive personal links page for hansmeru.">
+    <meta name="theme-color" content="#111318">
+    <meta property="og:title" content="hansmeru">
+    <meta property="og:description" content="Links, projects, and ways to connect.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/social-preview.svg">
+    <title>hansmeru | Links</title>
+    <link rel="icon" href="https://avatars.akamai.steamstatic.com/a85af7ca5353e0ad2bd6013cfd5635defc333d84.jpg" type="image/jpeg">
+    <link rel="apple-touch-icon" href="https://avatars.akamai.steamstatic.com/a85af7ca5353e0ad2bd6013cfd5635defc333d84_full.jpg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="is-locked">
+    <main class="page-shell">
+      <section class="profile" aria-labelledby="profile-title">
+        <img
+          class="profile__avatar"
+          src="https://avatars.akamai.steamstatic.com/a85af7ca5353e0ad2bd6013cfd5635defc333d84_full.jpg"
+          alt="hansmeru Steam profile picture"
+        >
+
+        <h1 id="profile-title">hansmeru</h1>
+        <p class="profile__intro">
+          25 years old, internet persona<br>
+          follow my socials below
+        </p>
+        <div class="profile-actions" aria-label="Profile links">
+          <button class="profile-button music-button" type="button" aria-pressed="false">
+            <span class="music-button__icon" aria-hidden="true">&#9654;</span>
+            <span>did i tell u that i miss u</span>
+          </button>
+
+          <a class="profile-button" href="https://www.instagram.com/hansmeru/" target="_blank" rel="noreferrer">
+            <img class="profile-button__icon" src="https://cdn.simpleicons.org/instagram/FFFFFF" alt="" aria-hidden="true">
+            <span>i post trips on story</span>
+          </a>
+
+          <a class="profile-button" href="https://www.youtube.com/channel/UCvHZV9w06adsFRxqBHD4oMQ" target="_blank" rel="noreferrer">
+            <img class="profile-button__icon" src="https://cdn.simpleicons.org/youtube/FFFFFF" alt="" aria-hidden="true">
+            <span>you'll see cool stuff eventually</span>
+          </a>
+
+          <a class="profile-button" href="https://open.spotify.com/user/ezohdvf7wotyrlv450d38nxgl" target="_blank" rel="noreferrer">
+            <img class="profile-button__icon" src="https://cdn.simpleicons.org/spotify/FFFFFF" alt="" aria-hidden="true">
+            <span>best music taste out there</span>
+          </a>
+
+          <a class="profile-button" href="https://discord.gg/essentia" target="_blank" rel="noreferrer">
+            <img class="profile-button__icon" src="https://cdn.simpleicons.org/discord/FFFFFF" alt="" aria-hidden="true">
+            <span>come talk to me on discord</span>
+          </a>
+
+          <a class="profile-button" href="https://steamcommunity.com/id/hansmeru" target="_blank" rel="noreferrer">
+            <img class="profile-button__icon" src="https://cdn.simpleicons.org/steam/FFFFFF" alt="" aria-hidden="true">
+            <span>don't look at my played hours</span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <button class="unlock-button" type="button">click to unlock</button>
+    <audio id="bg-music" src="assets/adore.mp3" loop preload="auto"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

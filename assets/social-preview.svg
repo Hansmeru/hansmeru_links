@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">hansmeru links preview</title>
+  <desc id="desc">Social preview artwork for a personal links page.</desc>
+  <defs>
+    <linearGradient id="wash" x1="92" y1="65" x2="1046" y2="564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111318"/>
+      <stop offset="0.48" stop-color="#1d2628"/>
+      <stop offset="1" stop-color="#2b1c20"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#wash)"/>
+  <path d="M0 72h1200M0 160h1200M0 248h1200M0 336h1200M0 424h1200M0 512h1200M116 0v630M260 0v630M404 0v630M548 0v630M692 0v630M836 0v630M980 0v630" stroke="#ffffff" stroke-opacity="0.06"/>
+  <circle cx="188" cy="315" r="92" fill="#4cc9b0"/>
+  <circle cx="188" cy="315" r="70" fill="#111318"/>
+  <text x="188" y="344" fill="#f7f1e8" font-family="Arial, sans-serif" font-size="72" font-weight="800" text-anchor="middle">hm</text>
+  <text x="328" y="284" fill="#f7f1e8" font-family="Arial, sans-serif" font-size="72" font-weight="800">hansmeru</text>
+  <text x="332" y="344" fill="#b9b1a5" font-family="Arial, sans-serif" font-size="32">Links, projects, and ways to connect.</text>
+  <rect x="332" y="394" width="160" height="12" rx="6" fill="#f2c14e"/>
+  <rect x="512" y="394" width="120" height="12" rx="6" fill="#4cc9b0"/>
+  <rect x="652" y="394" width="96" height="12" rx="6" fill="#e36a5b"/>
+</svg>

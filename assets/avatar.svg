@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">hansmeru fallback monogram</title>
+  <desc id="desc">A circular monogram used if the Discord profile picture cannot load.</desc>
+  <defs>
+    <linearGradient id="bg" x1="36" y1="32" x2="205" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4cc9b0"/>
+      <stop offset="0.5" stop-color="#f2c14e"/>
+      <stop offset="1" stop-color="#e36a5b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="120" fill="#111318"/>
+  <circle cx="120" cy="120" r="104" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="86" fill="#17191f"/>
+  <path d="M63 73h23v37h68V73h23v94h-23v-38H86v38H63V73Z" fill="#f7f1e8"/>
+  <path d="M80 176V91h22l19 34 19-34h22v85h-22v-47l-14 25h-10l-14-25v47H80Z" fill="#f2c14e" opacity="0.95"/>
+</svg>
