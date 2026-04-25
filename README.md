@@ -1,4 +1,4 @@
-# hansmeru Links
+# hansmeru - links
 
 A lightweight, responsive personal profile page built for GitHub Pages. It is plain HTML and CSS, so it does not need a build step.
 
