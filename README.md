@@ -12,7 +12,10 @@ Update the name, description, and avatar URL in `index.html`.
 2. Open the repository settings.
 3. Go to **Pages**.
 4. Set the source to the default branch and `/root`.
-5. Save and wait for GitHub to publish the site.
+5. Set the custom domain to `hansmeru.dev`.
+6. Save and wait for GitHub to publish the site.
+
+The `CNAME` file keeps `hansmeru.dev` attached to this GitHub Pages site.
 
 ## Files
 
